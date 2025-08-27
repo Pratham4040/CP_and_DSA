@@ -1,0 +1,22 @@
+import java.util.*;
+class TOH{
+    public static void 2D(int rows,int columns){
+        Int[][] array = {};
+        Scanner sc =new Scanner();
+        for(int i;i< rows;i++){
+            for(int j;j< columns;j++){
+                 array[i][j] = sc.nextInt();   
+            }
+        }
+
+    }
+    public static void main(String[]args){
+        2D(3,3);
+        for(int i;i< rows;i++){
+            for(int j;j< columns;j++){
+                 System.out.prinln(array[i][j]+" ");   
+            }
+            System.out.prinln("\n");  
+        }
+    }
+}
